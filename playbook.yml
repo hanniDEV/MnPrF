@@ -1,0 +1,5 @@
+- name:  "deploy wordpress"
+  hosts: worker01
+  become: true
+  roles:
+    - wordpress
